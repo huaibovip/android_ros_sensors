@@ -10,7 +10,796 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daee7475-5d35-4527-a43c-84ef9fe25aea" name="Default Changelist" comment="" />
+    <list default="true" id="daee7475-5d35-4527-a43c-84ef9fe25aea" name="Default Changelist" comment="Android Sensors Driver for ROS">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_acm_serial/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_acm_serial/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_benchmarks/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_benchmarks/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/arch/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/arch/lifecycle/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/arch/lifecycle/livedata/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/arch/lifecycle/livedata/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/arch/lifecycle/viewmodel/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/asynclayoutinflater/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/compat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/coordinatorlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/coreui/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/coreutils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/cursoradapter/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/customview/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/documentfile/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/drawerlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/fragment/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/graphics/drawable/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/interpolator/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/loader/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/localbroadcastmanager/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/mediacompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/print/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/slidingpanelayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/swiperefreshlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/v4/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/v7/appcompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/android/support/v7/viewpager/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/androidx/versionedparcelable/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/org/ros/android/android_core_components/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/generated/source/buildConfig/release/org/ros/android/android_core_components/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/mergeReleaseShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageReleaseAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/packageReleaseResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/incremental/release-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/release/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/release/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/livedata/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/livedata/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/viewmodel/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/cursoradapter/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/documentfile/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/interpolator/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/localbroadcastmanager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/print/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/versionedparcelable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/AppCompatRosActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/BitmapFromCompressedImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/BitmapFromImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$RosURIPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser$StableArrayAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MasterChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/MessageCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$LocalBinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/NodeMainExecutorServiceListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/OrientationPublisher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/OrientationPublisher$OrientationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/OrientationPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$NodeMainExecutorServiceConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$NodeMainExecutorServiceConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity$OnActivityResultCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/RosActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$mipmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/android_core_components/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistancePoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistanceRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistanceView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistanceView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistanceView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/DistanceView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/PanTiltView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosImageView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosImageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosImageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/ZoomMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/BaseMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$BufferingPreviewCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$SurfaceHolderCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CompressedImagePublisher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/CompressedImagePublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/RawImageListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/RosCameraPreviewView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/camera/YamlCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlTransform$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlTransform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/RotateGestureDetector$OnRotateGestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/RotateGestureDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/TextureBitmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/Vertices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/Viewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/XYOrthographicCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/XYOrthographicRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CompressedOccupancyGridLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/CompressedOccupancyGridLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/DefaultLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/GridCellsLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/GridCellsLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/LaserScanLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/LaserScanLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer$Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PathLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PathLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PointCloud2DLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PointCloud2DLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PoseSubscriberLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/PoseSubscriberLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/RobotLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/SubscriberLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/layer/TfLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/BaseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/GoalShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePoiShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePolygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePoseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/PixelSpacePoiShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/PixelSpacePoseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/TextShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/TextShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/TriangleFanShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/Triangulate$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/visualization/shape/Triangulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/GLText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/SpriteBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/TextureRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/Vertices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/arch/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/arch/lifecycle/livedata/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/arch/lifecycle/livedata/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/arch/lifecycle/viewmodel/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/cursoradapter/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/documentfile/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/interpolator/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/localbroadcastmanager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/print/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/androidx/versionedparcelable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/AppCompatRosActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/BitmapFromCompressedImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/BitmapFromImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$RosURIPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser$StableArrayAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MasterChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/MessageCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService$LocalBinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/NodeMainExecutorServiceListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/OrientationPublisher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/OrientationPublisher$OrientationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/OrientationPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$NodeMainExecutorServiceConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$NodeMainExecutorServiceConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity$OnActivityResultCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/RosActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$mipmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/android_core_components/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DiagnosticsArrayView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistancePoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistanceRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistanceView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistanceView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistanceView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/DistanceView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/PanTiltView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosImageView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosImageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosImageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosTextView$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosTextView$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosTextView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/VirtualJoystickView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/ZoomMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/BaseMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$BufferingPreviewCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView$SurfaceHolderCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CameraPreviewView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CompressedImagePublisher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/CompressedImagePublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/RawImageListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/RosCameraPreviewView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/camera/YamlCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlTransform$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/OpenGlTransform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/RotateGestureDetector$OnRotateGestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/RotateGestureDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/TextureBitmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/Vertices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/Viewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/VisualizationView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/XYOrthographicCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/XYOrthographicRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CameraControlListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CompressedOccupancyGridLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/CompressedOccupancyGridLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/DefaultLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/GridCellsLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/GridCellsLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/LaserScanLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/LaserScanLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer$Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/OccupancyGridLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PathLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PathLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PointCloud2DLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PointCloud2DLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PosePublisherLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PoseSubscriberLayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/PoseSubscriberLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/RobotLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/SubscriberLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/layer/TfLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/BaseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/GoalShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePoiShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePolygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/MetricSpacePoseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/PixelSpacePoiShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/PixelSpacePoseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/TextShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/TextShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/TriangleFanShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/Triangulate$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/ros/android/view/visualization/shape/Triangulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/GLText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/SpriteBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/TextureRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/uk/co/blogspot/fractiousg/texample/Vertices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/merged_manifests/release/processReleaseManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/black_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/center_widget.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/directional_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/grey_ring_notched.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/horizon_original.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/intensity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/large_d_widget_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/large_pan_marker_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/large_tilt_marker_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/mid_angle_slice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/pan_tilt_controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/pan_tilt_follower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/previous_velocity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/pt_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/pt_home_marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/rotate_left_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/rotate_right_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/small_d_widget_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/small_pan_marker_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/small_tilt_marker_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/stale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/top_angle_slice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/warn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_bar_lit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_bar_notlit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_in_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_in_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_out_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/drawable/zoom_out_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/layout/master_chooser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/layout/pan_tilt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/layout/virtual_joystick.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/mipmap-hdpi-v4/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/mipmap-ldpi-v4/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/mipmap-mdpi-v4/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/packaged_res/release/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/symbols/release/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/transforms/mergeJniLibs/release/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/outputs/logs/manifest-merger-release-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCamera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_camera/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_camera/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_camera_imu/release/android_camera_imu.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_camera_imu/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_image_transport/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_image_transport/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_map_viewer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_map_viewer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_pubsub/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_pubsub/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_tutorial_teleop/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_teleop/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +809,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_17" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -45,11 +833,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="424">
+              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,13 +845,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+            <state relative-caret-position="57">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCamera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +904,14 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Charles" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,14 +929,14 @@
         <option value="$PROJECT_DIR$/android_tutorial_camera_imu/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/BaseMatrixImpl.java" />
         <option value="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCameraInfo.java" />
-        <option value="$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java" />
         <option value="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/BaseMatrix.java" />
+        <option value="$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java" />
         <option value="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCamera.java" />
         <option value="$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="5">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
     <option name="y" value="24" />
     <option name="width" value="960" />
@@ -126,9 +947,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,10 +973,11 @@
     <property name="DEBUGGABLE_PROCESS" value="org.ros.android.android_tutorial_camera_imu" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="5EN0219124001906" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-23T15:27:35.126Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-30T12:52:16.340Z" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/android_tutorial_camera_imu" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="ToolWindowLogcat.ShowToolbar" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
@@ -163,7 +985,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/camera" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1569250329848" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +1012,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.android_tutorial_camera_imu">
+  <component name="RunManager" selected="Android App.android_tutorial_teleop">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -584,34 +1406,40 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
+    <frame x="960" y="24" width="960" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.2681624" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32456142" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="7" />
       <window_info id="Resources Explorer" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49946582" weight="0.3294979" />
       <window_info anchor="bottom" id="DevEco Output" order="0" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.49657536" visible="true" weight="0.3455115" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49657536" weight="0.333682" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50342464" side_tool="true" weight="0.35668105" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005342" side_tool="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49786323" weight="0.36961207" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49786323" weight="0.37041035" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49893162" weight="0.31941545" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49893162" weight="0.31857452" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3297414" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32959402" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32959402" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Assistant" order="5" weight="0.32852563" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Android Sensors Driver for ROS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Android Sensors Driver for ROS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/content/pm/PackageManager.java">
@@ -808,8 +1636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/YamlCamera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state>
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="e#717#718#0" expanded="true" />
             <element signature="e#759#760#0" expanded="true" />
@@ -829,20 +1657,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="57">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android_core_components/src/main/java/org/ros/android/view/camera/CompressedImagePublisher.java">
+    <entry file="file://$PROJECT_DIR$/android_tutorial_camera_imu/src/main/java/org/ros/android/android_tutorial_camera_imu/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+        <state relative-caret-position="424">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

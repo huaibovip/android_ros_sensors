@@ -78,9 +78,9 @@ public class YamlCamera {
         int len = data.length;
         String msg = "  data: [";
         for(int i = 0; i < len - 1; i++) {
-            msg += String.format("%f, ", data[i]);
+            msg += String.format("%.20f, ", data[i]);
         }
-        msg += String.format("%f]\n", data[len - 1]);
+        msg += String.format("%.20f]\n", data[len - 1]);
         return msg;
     }
 

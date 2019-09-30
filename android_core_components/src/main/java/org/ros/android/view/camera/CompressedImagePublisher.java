@@ -13,7 +13,6 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-
 package org.ros.android.view.camera;
 
 import com.google.common.base.Preconditions;
@@ -66,7 +65,7 @@ class CompressedImagePublisher implements RawImageListener {
     public CompressedImagePublisher(ConnectedNode connectedNode) {
         this.connectedNode = connectedNode;
         this.loadStatus = false;
-        this.yamlFile = "camera.txt";
+        this.yamlFile = "camera.yaml";
         this.lastTime = connectedNode.getCurrentTime();
 
         NameResolver resolver = connectedNode.getResolver().newChild("camera");
@@ -90,7 +89,6 @@ class CompressedImagePublisher implements RawImageListener {
                             }
                         });
         stream = new ChannelBufferOutputStream(MessageBuffers.dynamicBuffer());
-
         loadStatus = loadCameraInfoYaml(yamlFile);
     }
 
@@ -147,11 +145,17 @@ class CompressedImagePublisher implements RawImageListener {
                 //InputStream reader = CompressedImagePublisher.class.getResourceAsStream("/camera.yaml");
                 InputStream reader = new FileInputStream(file);
                 this.yamlCamera = yaml.loadAs(reader, YamlCamera.class);
-                Log.i(TAG, "Succeed to load camera.yaml");
-                return true;
+
+                if(yamlCamera.getCameraName() == null || yamlCamera.getDistortionModel() == null) {
+                    Log.i(TAG, "Fail to load camera.yaml.");
+                    return false;
+                }else {
+                    Log.i(TAG, "Succeed to load camera.yaml.");
+                    return true;
+                }
             } catch (Exception e){
                 e.printStackTrace();
-                Log.e(TAG, "Can't load yaml file!");
+                Log.e(TAG, "Fail to load yaml file!");
                 return false;
             }
         } else {
@@ -159,7 +163,6 @@ class CompressedImagePublisher implements RawImageListener {
             return false;
         }
     }
-
 
     public boolean saveCameraInfoYaml(sensor_msgs.CameraInfo cameraInfo, String fileName) {
         try{
@@ -182,7 +185,7 @@ class CompressedImagePublisher implements RawImageListener {
                     writer.close();
                     return true;
                 } else {
-                    Log.e(TAG, "Can't Create camera.yaml! & result = false");
+                    Log.e(TAG, "Can't Create camera.yaml!");
                     return false;
                 }
             }else {
