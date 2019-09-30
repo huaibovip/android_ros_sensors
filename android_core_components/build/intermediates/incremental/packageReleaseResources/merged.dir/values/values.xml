@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROS for Android</string>
+    <string name="cancel">Cancel</string>
+    <string name="connection_text">Trying to reach master…</string>
+    <string name="master_uri_hint">http://localhost:11311/</string>
+    <string name="new_master">New Public Master</string>
+    <string name="new_private_master">New Private Master</string>
+    <string name="qr_code">Read QRCode</string>
+    <string name="select_interface">Select network interface</string>
+    <string name="show_advanced">Show advanced options</string>
+    <string name="uri_text">Master URI:</string>
+    <string name="use_master">Connect</string>
+    <style name="padded">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+</resources>

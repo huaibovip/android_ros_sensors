@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-38:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/701565d990d44ce64ffc3898149da900/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1036fcd13d395f2e567d87f5b0c2a59f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b4cae4ba56fdc421449d5fe1c4b990dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b32a4d847df6e76a6953e8e1298267c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6451714700c7fa33fe9b413ed2c8fac6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12fafc0c9e1ad8dc915f198b52fbaf15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce0fae46990174f17195e9e4a103adff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/45c23dbf63327a55321ef2f396456764/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/76d071c271c79042a42780db0a1fda9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0355e008117edf21ee9f12338632098c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d88f65f97251f1ed31d3252265a99111/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9092106b30822d18a13c483d5a7df08e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c58faee0738811f4e05072187e837242/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c834d38e069b9d00c5a304eec3d5c91b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/bbe228103e6a91788ff3f81cd59b078c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8fb5dd876511546515a2c4deb9652834/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3c94b4fe53e1b5636fa50091dbfeae0a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d22ddd1d5e99f24c82a98ddbfd5bee76/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f7b516d58d7bde2b20062b30e44290c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb427cbf0c61903ea4104672ceca989a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/86c5e2d514e36a4ccdcf249dce84553f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/13a7cfee9b82f4df0c018e62ec65040a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/605c67d9cfeb1024811e67ed339a4b37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68f166f5256a4e5f3786503be771269d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/42f6cb29e4bf015088853922e3d16d1e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/890c52f32c61e743099699ea4ce78c15/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e930126b27005a5a43ab15fff6bd7678/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:70-128
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:5:5-68
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-68
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:6:5-77
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:5-77
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:6:22-74
+application
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:8:5-30:19
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:20:5-36:19
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:20:5-36:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3c94b4fe53e1b5636fa50091dbfeae0a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3c94b4fe53e1b5636fa50091dbfeae0a/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:9:9-36
+	android:allowBackup
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:11:9-35
+activity#org.ros.android.android_tutorial_image_transport.MainActivity
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:12:9-22:20
+	android:screenOrientation
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:16:13-50
+	android:label
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:15:13-45
+	android:configChanges
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:14:13-63
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:13:13-89
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:20:27-74
+activity#org.ros.android.MasterChooser
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:23:9-66
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:23:9-27:54
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:23:9-27:54
+	android:label
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:13-45
+	android:launchMode
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:26:13-42
+	android:theme
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:27:13-51
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:23:19-63
+service#org.ros.android.NodeMainExecutorService
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:25:9-29:19
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:29:9-35:19
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:29:9-35:19
+	tools:ignore
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:31:13-43
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:25:18-72
+intent-filter#action:name:org.ros.android.NodeMainExecutorService
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:26:13-28:29
+action#org.ros.android.NodeMainExecutorService
+ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml:27:25-79
+uses-sdk
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-10:41
+MERGED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/701565d990d44ce64ffc3898149da900/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/701565d990d44ce64ffc3898149da900/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1036fcd13d395f2e567d87f5b0c2a59f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1036fcd13d395f2e567d87f5b0c2a59f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b4cae4ba56fdc421449d5fe1c4b990dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b4cae4ba56fdc421449d5fe1c4b990dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b32a4d847df6e76a6953e8e1298267c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b32a4d847df6e76a6953e8e1298267c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6451714700c7fa33fe9b413ed2c8fac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6451714700c7fa33fe9b413ed2c8fac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12fafc0c9e1ad8dc915f198b52fbaf15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12fafc0c9e1ad8dc915f198b52fbaf15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce0fae46990174f17195e9e4a103adff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce0fae46990174f17195e9e4a103adff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/45c23dbf63327a55321ef2f396456764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/45c23dbf63327a55321ef2f396456764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/76d071c271c79042a42780db0a1fda9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/76d071c271c79042a42780db0a1fda9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0355e008117edf21ee9f12338632098c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0355e008117edf21ee9f12338632098c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d88f65f97251f1ed31d3252265a99111/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d88f65f97251f1ed31d3252265a99111/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9092106b30822d18a13c483d5a7df08e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9092106b30822d18a13c483d5a7df08e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c58faee0738811f4e05072187e837242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c58faee0738811f4e05072187e837242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c834d38e069b9d00c5a304eec3d5c91b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c834d38e069b9d00c5a304eec3d5c91b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/bbe228103e6a91788ff3f81cd59b078c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/bbe228103e6a91788ff3f81cd59b078c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8fb5dd876511546515a2c4deb9652834/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8fb5dd876511546515a2c4deb9652834/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7c4025fd69d1560d15b9f4aec7fe7f44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3c94b4fe53e1b5636fa50091dbfeae0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3c94b4fe53e1b5636fa50091dbfeae0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d22ddd1d5e99f24c82a98ddbfd5bee76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d22ddd1d5e99f24c82a98ddbfd5bee76/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f7b516d58d7bde2b20062b30e44290c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f7b516d58d7bde2b20062b30e44290c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb427cbf0c61903ea4104672ceca989a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb427cbf0c61903ea4104672ceca989a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/86c5e2d514e36a4ccdcf249dce84553f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/86c5e2d514e36a4ccdcf249dce84553f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/13a7cfee9b82f4df0c018e62ec65040a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/13a7cfee9b82f4df0c018e62ec65040a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/605c67d9cfeb1024811e67ed339a4b37/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/605c67d9cfeb1024811e67ed339a4b37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68f166f5256a4e5f3786503be771269d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/charels/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68f166f5256a4e5f3786503be771269d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/42f6cb29e4bf015088853922e3d16d1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/42f6cb29e4bf015088853922e3d16d1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/890c52f32c61e743099699ea4ce78c15/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/890c52f32c61e743099699ea4ce78c15/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e930126b27005a5a43ab15fff6bd7678/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/charels/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e930126b27005a5a43ab15fff6bd7678/AndroidManifest.xml:20:5-44
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_tutorial_image_transport/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from [:android_core_components] /home/charels/ros_java/android_core-kinetic/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:22-77

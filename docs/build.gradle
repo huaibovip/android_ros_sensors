@@ -1,0 +1,50 @@
+/*
+ * Copyright (C) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+import org.apache.tools.ant.filters.ReplaceTokens
+
+task javadoc(type: Javadoc) {
+  def javaProjects = rootProject.subprojects.findResults {
+    (it.name != 'docs') ? it : null
+  }
+  source javaProjects.collect { fileTree(dir: "${it.projectDir}/src/main/java") }
+  classpath = files(javaProjects.collect { it.configurations.compile })
+  destinationDir = new File("${buildDir}/html", 'javadoc')
+}
+
+task copySphinxConf(type: Copy) {
+  from('src/main/sphinx/conf.py.in') {
+    filter(ReplaceTokens, tokens: ['version': rootProject.version])
+  }
+  into 'src/main/sphinx'
+  rename 'conf.py.in', 'conf.py'
+}
+
+task docs(type: Exec, dependsOn: [copySphinxConf, javadoc]) {
+  commandLine 'make', 'html'
+}
+
+task clean {
+  doLast {
+    ant.delete dir: 'build'
+    ant.delete file: 'src/main/sphinx/conf.py'
+  }
+}
+
+/* Dummy task to stop android studio barfing */
+task assembleDebug {}
+task assembleRelease {}
+task assemble {}

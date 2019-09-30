@@ -1,0 +1,32 @@
+/*
+ * Copyright (C) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+include "android_core_components"
+include "android_acm_serial"
+include "android_benchmarks"
+include "android_tutorial_camera"
+include "android_tutorial_image_transport"
+include "android_tutorial_map_viewer"
+include "android_tutorial_pubsub"
+include "android_tutorial_teleop"
+include "docs"
+include "android_tutorial_camera_imu"
+
+// TODO(damonkohler): The following projects are not included in the
+// multi-project yet till its sorted whereabouts they should actually live
+// (should they be in a java repo instead?)
+// include "compressed_map_transport"
+// include "polling_input_stream"

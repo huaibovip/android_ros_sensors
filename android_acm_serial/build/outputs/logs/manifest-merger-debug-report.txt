@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+	package
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:11-55
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+	android:versionCode
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml:2:1-57
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+uses-sdk
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		ADDED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml
+		INJECTED from /home/charels/ros_java/android_core-kinetic/android_acm_serial/AndroidManifest.xml

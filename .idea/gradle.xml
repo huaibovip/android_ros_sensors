@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android_acm_serial" />
+            <option value="$PROJECT_DIR$/android_benchmarks" />
+            <option value="$PROJECT_DIR$/android_core_components" />
+            <option value="$PROJECT_DIR$/android_tutorial_camera" />
+            <option value="$PROJECT_DIR$/android_tutorial_camera_imu" />
+            <option value="$PROJECT_DIR$/android_tutorial_image_transport" />
+            <option value="$PROJECT_DIR$/android_tutorial_map_viewer" />
+            <option value="$PROJECT_DIR$/android_tutorial_pubsub" />
+            <option value="$PROJECT_DIR$/android_tutorial_teleop" />
+            <option value="$PROJECT_DIR$/docs" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

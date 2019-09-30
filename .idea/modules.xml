@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" filepath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" filepath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_core-kinetic.iml" filepath="$PROJECT_DIR$/android_core-kinetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_core_components/android_core_components.iml" filepath="$PROJECT_DIR$/android_core_components/android_core_components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" filepath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_camera_imu/android_tutorial_camera_imu.iml" filepath="$PROJECT_DIR$/android_tutorial_camera_imu/android_tutorial_camera_imu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" filepath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" filepath="$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" filepath="$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" filepath="$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docs/docs.iml" filepath="$PROJECT_DIR$/docs/docs.iml" />
+    </modules>
+  </component>
+</project>
